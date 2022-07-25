@@ -1,0 +1,159 @@
+.container {
+  font-family: Orbitron;
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+  font-family: Orbitron;
+  cursor: pointer;
+}
+
+.navbar-container {
+  margin-top: 40px;
+  position: relative;
+}
+
+.navbar-container img {
+  width: 120px;
+  cursor: pointer;
+}
+
+.list {
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  left: 22%;
+}
+
+.list-item {
+  cursor: pointer;
+  font-size: 25px;
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.list-item:hover {
+  font-weight: bold;
+}
+
+.button-group {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.button-group div {
+  display: inline-block;
+}
+
+.search-icon {
+  position: absolute;
+  right: 180px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.button-group button {
+  padding: 7px 35px;
+  background: transparent;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.hero-container {
+  margin-top: 80px;
+  position: relative;
+}
+
+.square {
+  position: absolute;
+  top: 270px;
+  left: 170px;
+  z-index: -1;
+}
+
+.square > img {
+  width: 350px;
+}
+
+.star {
+  position: absolute;
+  right: 1px;
+}
+
+.globe {
+  position: absolute;
+  left: 700px;
+  top: -40px;
+}
+
+.globe + div > img {
+  width: 450px;
+}
+
+.hero-container-right {
+  position: absolute;
+  top: 100px;
+  left: 550px;
+}
+
+.hero-heading {
+  font-size: 48px;
+}
+
+.hero-description {
+  text-align: center;
+  font-size: 13px;
+  color: #333;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.hero-description + div {
+  position: absolute;
+  top: 290px;
+  left: 150px;
+}
+
+.button-email {
+  background: transparent;
+  padding: 5px 35px;
+  font-size: 20px;
+  color: #333;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.button-email:hover {
+  color: #fff;
+  background: #000;
+}
+
+.button-join {
+  margin-left: 10px;
+  background: black;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: #fff;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+h4 {
+  position: absolute;
+  top: 420px;
+  left: 290px;
+}
+
+.icons {
+  position: absolute;
+  top: 470px;
+  left: 260px;
+}
+
+.icons span {
+  margin-right: 10px;
+  cursor: pointer;
+}
